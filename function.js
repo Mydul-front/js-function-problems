@@ -114,7 +114,7 @@ console.log(name); */
 
 // mathematical solution
 
-const min = Math.min(23, 54, 5, 4, 3, 56, 76, 7);
+/* const min = Math.min(23, 54, 5, 4, 3, 56, 76, 7);
 console.log(min);
 
 const number = Math.max(54, 364, 675, 4547, 675859, 464);
@@ -123,4 +123,25 @@ console.log(Math.PI);
 console.log(Math.abs(5 - 10));
 console.log(Math.round(4.56));
 console.log(Math.floor(2.95));
-console.log(Math.ceil(1.1));
+console.log(Math.ceil(1.1)); */
+
+// date ber korar niyom
+/* const today = new Date(26, 04, 2025);
+console.log(today("en - GB")); */
+
+// olotpalot korar niyom
+
+/* let a = 7;
+let b = 5;
+// console.log(a, b);
+const temp = a;
+a = b;
+b = temp;
+console.log(a, b); */
+
+
+// 2nd swap to the x and y
+/* let x = 5;
+let y = 7;
+[x, y] = [y, x];
+console.log(x, y); */
