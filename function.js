@@ -89,7 +89,7 @@ console.log(results); */
 
 // no dublicate array in the array
 
-const biriyaniKhor = [
+/* const biriyaniKhor = [
   "abdul",
   "kalam",
   "mydul",
@@ -110,4 +110,17 @@ function noDublicate(biriyaniKhor) {
   return unique;
 }
 const name = noDublicate(numbers);
-console.log(name);
+console.log(name); */
+
+// mathematical solution
+
+const min = Math.min(23, 54, 5, 4, 3, 56, 76, 7);
+console.log(min);
+
+const number = Math.max(54, 364, 675, 4547, 675859, 464);
+console.log(number);
+console.log(Math.PI);
+console.log(Math.abs(5 - 10));
+console.log(Math.round(4.56));
+console.log(Math.floor(2.95));
+console.log(Math.ceil(1.1));
