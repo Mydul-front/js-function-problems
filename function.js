@@ -75,12 +75,15 @@ console.log(year, year1, year2, year3, year4); */
     }
   }
   //   return sum1;
-  //   console.log(oddNumber);
+  console.log(oddNumber);
   let sum = 0;
   for (let i = 0; i < oddNumber.length; i++) {
-    sum = sum + oddNumber;
+    sum = sum + oddNumber[i];
   }
   console.log(sum);
+  const avg = sum / oddNumber.length;
+  console.log(avg);
+  return avg;
 }
 
 const numbers = [13, 15, 16, 68, 45, 56, 44];
@@ -98,7 +101,7 @@ console.log(results); */
   "kalam",
   "abdul",
 ];
-const numbers = [1, 56, 5, 7, 56, 56, 1, 7, 2];
+
 
 function noDublicate(biriyaniKhor) {
   const unique = [];
@@ -109,6 +112,7 @@ function noDublicate(biriyaniKhor) {
   }
   return unique;
 }
+const numbers = [1, 56, 5, 7, 56, 56, 1, 7, 2];
 const name = noDublicate(numbers);
 console.log(name); */
 
@@ -138,7 +142,6 @@ const temp = a;
 a = b;
 b = temp;
 console.log(a, b); */
-
 
 // 2nd swap to the x and y
 /* let x = 5;
